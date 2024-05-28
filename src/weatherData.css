@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+
+/* Style root div */
+#root {
+  background: #40c1e6;
+  background: linear-gradient(0deg, #40c1e6, #652d6b);
+  height: 100vh;
+}
+
+.App {
+  color: white;
+}
+
+/* Style Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+}
+
+/* Style Input Field */
+.cityInput {
+  font-size: 1.5em;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  border: none;
+  background-color: rgb(222, 222, 222);
+  width: fit-content;
+  margin: 1em;
+  text-align: center;
+}
+
+/* Style Get Weather Button */
+.weatherButton {
+  font-size: 1.2em;
+  border: none;
+  border-radius: 0.25em;
+  background-color: rgb(28, 101, 235);
+  padding: 0.5em;
+  width: fit-content;
+  margin: 1em;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.weatherButton:hover {
+  background-color: rgb(19, 91, 192);
+  color: rgb(202, 202, 202);
+}
+
+/* Style Response Data Display */
+.weatherCard {
+  background-color: rgba(53, 53, 53, 0.893);
+  padding: 2em;
+  width: 200px;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
